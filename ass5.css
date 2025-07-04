@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.chess-board{
+    display:flex;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+
+}
+.chess-board div{
+    width: 12.5%;
+    height: 12.5%;
+
+}
+/* Light squares */
+.chess-board div:nth-child(odd) {
+    background-color: #f0d9b5;
+}
+/* Dark squares */
+.chess-board div:nth-child(even) {
+    background-color: #b58863;
+}
+/* Flip every second row to start with opposite color */
+.chess-board div:nth-child(16n + 1),
+.chess-board div:nth-child(16n + 3),
+.chess-board div:nth-child(16n + 5),
+.chess-board div:nth-child(16n + 7),
+.chess-board div:nth-child(16n + 10),
+.chess-board div:nth-child(16n + 12),
+.chess-board div:nth-child(16n + 14),
+.chess-board div:nth-child(16n + 16) {
+    background-color: #b58863;
+}
+
+.chess-board div:nth-child(16n + 2),
+.chess-board div:nth-child(16n + 4),
+.chess-board div:nth-child(16n + 6),
+.chess-board div:nth-child(16n + 8),
+.chess-board div:nth-child(16n + 9),
+.chess-board div:nth-child(16n + 11),
+.chess-board div:nth-child(16n + 13),
+.chess-board div:nth-child(16n + 15) {
+    background-color: #f0d9b5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.chess-board{
+    display:flex;
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+
+}
+.chess-board div{
+    width: 12.5%;
+    height: 12.5%;
+
+}
+/* Light squares */
+.chess-board div:nth-child(odd) {
+    background-color: #f0d9b5;
+}
+/* Dark squares */
+.chess-board div:nth-child(even) {
+    background-color: #b58863;
+}
+/* Flip every second row to start with opposite color */
+.chess-board div:nth-child(16n + 1),
+.chess-board div:nth-child(16n + 3),
+.chess-board div:nth-child(16n + 5),
+.chess-board div:nth-child(16n + 7),
+.chess-board div:nth-child(16n + 10),
+.chess-board div:nth-child(16n + 12),
+.chess-board div:nth-child(16n + 14),
+.chess-board div:nth-child(16n + 16) {
+    background-color: #b58863;
+}
+
+.chess-board div:nth-child(16n + 2),
+.chess-board div:nth-child(16n + 4),
+.chess-board div:nth-child(16n + 6),
+.chess-board div:nth-child(16n + 8),
+.chess-board div:nth-child(16n + 9),
+.chess-board div:nth-child(16n + 11),
+.chess-board div:nth-child(16n + 13),
+.chess-board div:nth-child(16n + 15){
+    background-color: #f0d9b5;
+}
+
+/* :hover */
+.chess-board:hover div:nth-child(16n + 1),
+.chess-board:hover div:nth-child(16n + 3),
+.chess-board:hover div:nth-child(16n + 5),
+.chess-board:hover div:nth-child(16n + 7),
+.chess-board:hover div:nth-child(16n + 10),
+.chess-board:hover div:nth-child(16n + 12),
+.chess-board:hover div:nth-child(16n + 14),
+.chess-board:hover div:nth-child(16n + 16) {
+    background-color: #f0d9b5;
+}
+.chess-board:hover div:nth-child(16n + 2),
+.chess-board:hover div:nth-child(16n + 4),
+.chess-board:hover div:nth-child(16n + 6),
+.chess-board:hover div:nth-child(16n + 8),
+.chess-board:hover div:nth-child(16n + 9),
+.chess-board:hover div:nth-child(16n + 11),
+.chess-board:hover div:nth-child(16n + 13),
+.chess-board:hover div:nth-child(16n + 15) {
+    background-color: #b58863;
+}
+
+

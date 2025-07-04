@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>zoo keeper Application Form</h1>
+    <h6>Please complete the form, Mandatory fields are marked with a <sup>*</sup></h6>
+    <fieldset>
+        <legend>Contact Dteails</legend>
+        <form action="">
+            <table>
+               <tr>
+                    <th><label for="name">Name:<sup>*</sup></label></th>
+                    <td><input type="text" id="name" name="name"></td>
+               </tr> 
+               <tr>
+                    <th><label for="tel">phone:<sup>*</sup></label></th>
+                    <td><input type="tel" id="tel" name="tel"></td>
+               </tr>
+                <tr>
+                      <th><label for="email">Email:<sup>*</sup></label></th>
+                      <td><input type="email" id="email" name="email"></td>
+            </table>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>personal Information</legend>
+        <form action="">
+            <table>
+                <tr>
+                    <th><label for="age">Age:<sup>*</sup></label></th>
+                    <td><input type="number" id="age" name="age"></td>
+                </tr>
+                <tr>
+                    <th><label for="gender">Gender:</label></th>
+                    <td>
+                        <select name="male" id="gender">
+                            <option value="" disabled selected hidden>Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="acknowledge">when did you <br>first known you wanted <br>to be a <br>zoo-keeper?</label></th>
+                    <td><textarea name="description" id="ackownledge"></textarea></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Pick Your Favorite Animal</legend>
+        <form action="">
+            <table>
+                <tr>
+                    <td><input type="checkbox" id="lion" name="animal" value="lion"></td>
+                    <td><label for="lion">Lion</label></td>
+                    <td><input type="checkbox" id="elephant" name="animal" value="elephant"></td>
+                    <td><label for="elephant">Elephant</label></td>
+                    <td><input type="checkbox" id="giraffe" name="animal" value="giraffe"></td>
+                    <td><label for="giraffe">Giraffe</label></td>
+                    <td><input type="checkbox" id="tiger" name="animal" value="tiger"></td>
+                    <td><label for="tiger">Tiger</label></td>
+                    <td><input type="checkbox" id="liger" name="animal" value="liger"></td>
+                    <td><label for="liger">Liger</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="zebra" name="animal" value="zebra"></td>
+                    <td><label for="zebra">Zebra</label></td>
+                    <td><input type="checkbox" id="monkey" name="animal" value="monkey"></td>
+                    <td><label for="monkey">Monkey</label></td>
+                    <td><input type="checkbox" id="bear" name="animal" value="bear"></td>
+                    <td><label for="bear">Bear</label></td>
+                    <td><input type="checkbox" id="panda" name="animal" value="panda"></td>
+                    <td><label for="panda">Panda</label></td>
+                    <td><input type="checkbox" id="kangaroo" name="animal" value="kangaroo"></td>
+                    <td><label for="kangaroo">Kangaroo</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="snake" name="animal" value="snake"></td>
+                    <td><label for="snake">Snake</label></td>
+                    <td><input type="checkbox" id="crocodile" name="animal" value="crocodile"></td>
+                    <td><label for="crocodile">Crocodile</label></td>
+                    <td><input type="checkbox" id="hippo" name="animal" value="hippo"></td>
+                    <td><label for="hippo">Hippo</label></td>
+                    <td><input type="checkbox" id="rhino" name="animal" value="rhino"></td>
+                    <td><label for="rhino">Rhino</label></td>
+                    <td><input type="checkbox" id="peacock" name="animal" value="peacock"></td>
+                    <td><label for="peacock">Peacock</label></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <br>
+    <button> Submit Application</button>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.panther{
+    display: inline-block;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(6, 101, 109);
+    color:whitesmoke;
+    border: 2px solid rgb(10, 0, 0);
+}
